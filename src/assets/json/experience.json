@@ -1,0 +1,38 @@
+[
+    {
+        "title":"SOFTWARE DEVELOPER",
+        "date":"Feb 2022 to Dec 2023",
+        "company": "Project s & Systems LTDA",
+        "description": [
+            "Management of applications in PHP and Angular language",
+            "Creation of RESTful API in php and node js",
+            "Database management",
+            "Improving the frontend of the applications with css and bootstrap",
+            "Collaborated with a team of engineers to develop and implement software solutions for various projects",
+            "Designed and implemented efficient algorithms to solve complex technical challenges, resulting in improved system performance and reduced development time",
+            "Utilized Php, Node js and Angular to develop software applications, ensuring high quality and adherence to coding standards."
+        ],
+        "latest":1
+    },
+    {
+        "title":"FULL STACK SUPPORT ENGINEER",
+        "date":"Nov 2021 to Jan 2022",
+        "company": "Certicamara",
+        "description": [
+            "Product support",
+            "Reports generation",
+            "Management of microservices with Java Spring boot, which controlled the status changes of the invoices managed by the company, it was linked to the database and in turn consumed different external API rest and soap services",
+            "Validation of the rest and soap API services when errors were generated when processing invoices, which is why request validations were carried out to find the consumption failure",
+            "Management of relational and non-relational databases with MySql and Oracle to manage personal information of clients and Mongodb to invoice statuses and information",
+            "Deployment of company products to customers"
+        ]
+    },
+    {
+        "title":"SUPPORT AGENT",
+        "date":"Sep 2021 to Oct 2021",
+        "company": "Certicamara",
+        "description": [
+            "Customer Support"
+        ]
+    }
+]
