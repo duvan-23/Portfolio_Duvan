@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Project1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit totam cumque odit sapiente corporis deleniti sequi soluta repellendus quaerat",
+        "link": "#",
+        "github": "#",
+        "image": "/assets/img/prueba.webp",
+        "tags": ["angular", "tailwind", "JavaScript"]
+    }
+]
