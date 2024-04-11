@@ -4,10 +4,11 @@ import { IntroductionComponent } from '../../components/introduction/introductio
 import { ExperienceComponent } from '../../components/experience/experience.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { ProjectsComponent } from '../../components/projects/projects.component';
+import { ContactComponent } from '../../components/contact/contact.component';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavComponent, IntroductionComponent, ExperienceComponent, FooterComponent, ProjectsComponent ],
+  imports: [NavComponent, IntroductionComponent, ExperienceComponent, FooterComponent, ProjectsComponent, ContactComponent ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
