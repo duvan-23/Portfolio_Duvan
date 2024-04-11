@@ -16,7 +16,7 @@ export class HomeComponent {
   scroll3(pos:string){
     const sectionElement = document.getElementById(pos);
     if (sectionElement) {
-      const offset = -60; 
+      const offset = -90; 
       const elementTop = sectionElement.getBoundingClientRect().top;
       const desiredScrollPosition = window.scrollY + elementTop + offset;
       window.scrollTo({ top:desiredScrollPosition, behavior: 'smooth'});

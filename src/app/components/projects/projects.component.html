@@ -1,18 +1,18 @@
-<section class="pb-4">
-    <h2 class="text-lg mb-3 font-semibold flex gap-x-3 items-center">
-        <svg class="size-5 fill-white " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+<section class="pb-12">
+    <h2 class="text-lg md:text-3xl mb-10 font-semibold flex gap-x-3 items-center">
+        <svg class="size-5 md:size-7 fill-white " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
             <path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM153 289l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L71 337c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM265 255l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/>
         </svg>
         Projects
     </h2>
     @for(project of projects;track project.title){
         <article>
-            <h3 class="text-sm font-semibold text-yellow-200 mb-2">{{project.title}}</h3>
+            <h3 class="text-base md:text-xl font-semibold text-yellow-200 mb-6">{{project.title}}</h3>
             <ul class="flex gap-x-2 flex-row mb-4">
                 @for(tag of project.tags;track tag ){
                     @if(tags[tag]){
                         <li>
-                            <span class="flex gap-x-2 rounded-full text-[8px] py-1 px-2 bg-slate-700">
+                            <span class="flex gap-x-2 rounded-full text-[9px] md:text-xs py-1 px-2 bg-slate-700">
                                 <div [innerHTML]="tags[tag].icon | safeHtml"></div>
                                 {{tags[tag].name}}
                             </span>
@@ -20,29 +20,26 @@
                     }
                 }
             </ul>
-            <p class="text-[12px] mb-4 text-pretty text-gray-300">{{project.description}}</p>
+            <p class="text-[14px] md:text-lg mb-4 text-pretty text-gray-300">{{project.description}}</p>
             <div class="flex items-center justify-center">
                 <div class="group relative">
-                    <img class="rounded shadow-md shadow-white/10 h-32 object-cover" [src]="project.image" [alt]="project.title">
-                    <div class="opacity-0 group-hover:opacity-100 transition duration-300 absolute inset-0 flex justify-center items-center gap-x-4 group-hover:bg-gray-500/70">
+                    <img class="rounded shadow-md shadow-white/10 h-34 md:h-48 object-cover" [src]="project.image" [alt]="project.title">
+                    <div class="opacity-0 group-hover:opacity-100 transition duration-300 absolute inset-0 flex justify-center items-center gap-x-4 group-hover:bg-gray-500/70 hover:rounded">
                         
-                        <a href="#" target="_blank" class="text-white font-medium hover:text-blue-950 flex items-center justify-center  hover:fill-blue-950 fill-white ">
-                            <svg class="size-3 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <a href="#" target="_blank" class="text-white text-lg md:text-xl font-medium hover:text-blue-950 flex items-center justify-center  hover:fill-blue-950 fill-white ">
+                            <svg class="size-4 md:size-5 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/>
                             </svg>
                             Website
                         </a>
-                        <a href="#" target="_blank" class="text-white font-medium hover:text-blue-950 flex items-center justify-center  hover:fill-blue-950 fill-white">
-                            <svg class="size-3 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
+                        <a href="#" target="_blank" class="text-white text-lg md:text-xl font-medium hover:text-blue-950 flex items-center justify-center  hover:fill-blue-950 fill-white">
+                            <svg class="size-4 md:size-5 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
                             </svg>
                             Code
                         </a>
                     </div>
                   </div>
-                  
             </div>
-            
-          
         </article>
     }
 </section>
