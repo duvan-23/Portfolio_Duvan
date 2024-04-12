@@ -8,18 +8,22 @@
     @for(project of projects;track project.title){
         <article>
             <h3 class="text-base md:text-xl lg:text-2xl font-semibold text-yellow-200 mb-6">{{project.title}}</h3>
-            <ul class="flex gap-x-2 flex-row mb-4">
+            <ul class="flex flex-wrap   mb-4 ">
                 @for(tag of project.tags;track tag ){
                     @if(tags[tag]){
-                        <li>
-                            <span class="flex gap-x-2 rounded-full text-[9px] md:text-xs lg:text-base py-1 px-2 bg-slate-700">
-                                <div [innerHTML]="tags[tag].icon | safeHtml"></div>
+                        <li class="w-1/4 p-1 md:w-32 lg:w-36">
+                            <span class="flex items-center  rounded-full text-[9px] md:text-xs lg:text-base py-1 px-2 bg-slate-700 ">
+                                <div class="mr-2" [innerHTML]="tags[tag].icon | safeHtml"></div>
                                 {{tags[tag].name}}
                             </span>
                         </li>
                     }
                 }
             </ul>
+            <div class="flex">
+                <div class="w-1/2 p-4">Column 1</div>
+                <div class="w-1/2 p-4">Column 2</div>
+              </div>
             <p class="text-[14px] md:text-lg lg:text-xl mb-4 text-pretty text-gray-300">{{project.description}}</p>
             <div class="flex items-center justify-center">
                 <div class="group relative">
