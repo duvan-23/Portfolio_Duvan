@@ -1,10 +1,10 @@
 [
     {
-        "title": "Project1",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit totam cumque odit sapiente corporis deleniti sequi soluta repellendus quaerat",
-        "link": "#",
+        "title": "E-commerce",
+        "description": "In this project, I utilized a combination of cutting-edge technologies to develop a robust e-commerce platform. The frontend was built using AngularJS, a powerful JavaScript framework known for its flexibility and efficiency in crafting dynamic user interfaces. Leveraging the utility-first CSS framework Tailwind CSS, I ensured a sleek and responsive design that enhances user experience across various devices. For the backend infrastructure, I employed Node.js, a server-side runtime environment renowned for its scalability and speed. With Node.js, I created a resilient backend system capable of handling high volumes of traffic and concurrent user interactions. To manage the database operations efficiently, I utilized MySQL through Knex.js, enabling seamless data manipulation and retrieval.",
+        "link": "https://e-commerceduvan.netlify.app",
         "github": "#",
-        "image": "/assets/img/prueba.webp",
-        "tags": ["angular", "tailwind", "node", "spring"]
+        "image": "/assets/img/e-commerce.webp",
+        "tags": ["angular", "node", "tailwind"]
     }
 ]
