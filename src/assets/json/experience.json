@@ -1,16 +1,17 @@
 [
     {
         "title":"SOFTWARE DEVELOPER",
-        "date":"Feb 2022 to Dec 2023",
+        "date":"Feb 2022 to Dec 2024",
         "company": "Project s & Systems LTDA",
         "description": [
-            "Management of applications in PHP and Angular language.",
-            "Creation of RESTful API in php and node js.",
-            "Database management.",
-            "Improving the frontend of the applications with css and bootstrap",
-            "Collaborated with a team of engineers to develop and implement software solutions for various projects.",
-            "Designed and implemented efficient algorithms to solve complex technical challenges, resulting in improved system performance and reduced development time.",
-            "Utilized Php, Node js and Angular to develop software applications, ensuring high quality and adherence to coding standards."
+            "Management of applications in PHP, Node js and Angular language. In these projects,we implemented the MVC (Model-View-Controller) pattern to keep the project organized and the codebase readable.",
+            "Creating APIs and microservices using PHP with Slim and Laravel frameworks, as well as Node.js with Express.js. Implementing routing, token middleware, and request validations in both environments to ensure secure and efficient API operations.",
+            "Managing databases with MySQL and MongoDB, employing frameworks like Knex and Mongoose to enhance data handling. Using MySQL to store personal information, such as customer data, and MongoDB to handle data like tokens",
+            "Collaborating closely with a team to develop and implement software solutions for various projects. Managing repositories with dierent branches and coordinating team eorts to avoid conicts when pushing commits, ensuring smooth and ecient collaboration.",
+            "Designing and implementing ecient algorithms to tackle complex technical challenges, which leads to improved system performance and reduced development time. Utilizing SOLID principles and refactoring code to enhance eciency, maintainability, and overall code quality.",
+            "Utilizing PHP, Node.js, and Angular to develop software applications, ensuring high quality and adherence to coding standards. Incorporating unit testing to verify that each component functions correctly and meets the required specications.",
+            "During the migration of projects from PHP to Node, TypeScript was adopted to enhance the development process. Utilizing TypeScript’s features, including interfaces and strong static typing, to improve code reliability and maintainability.",
+            "Utilizing Azure DevOps for comprehensive project management, including managing user stories, appraising their progress, and overseeing the repository. Employing Azure Pipelines for deploying changes eciently and ensuring continuous integration and delivery. Additionally, using SonarQube within Azure DevOps to enforce clean code practices and maintain high code quality standards."
         ],
         "latest":1
     },
