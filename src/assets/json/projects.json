@@ -1,11 +1,11 @@
 [
     {
-        "title": "E-commerce",
-        "description": "In this project, I utilized a combination of cutting-edge technologies to develop a robust e-commerce platform. The frontend was built using AngularJS, a powerful JavaScript framework known for its flexibility and efficiency in crafting dynamic user interfaces. Leveraging the utility-first CSS framework Tailwind CSS, I ensured a sleek and responsive design that enhances user experience across various devices. For the backend infrastructure, I employed Node.js, a server-side runtime environment renowned for its scalability and speed. With Node.js, I created a resilient backend system capable of handling high volumes of traffic and concurrent user interactions. To manage the database operations efficiently, I utilized MySQL through Knex.js, enabling seamless data manipulation and retrieval.",
-        "link": "https://e-commerceduvan.netlify.app",
+        "title": "Customer Survey",
+        "description": "The Automotive Sales Customer Survey is a React and Vite-based project designed to collect and analyze customer feedback in the automotive industry. The application features two main sections: a survey form and a statistics dashboard. The survey interface is managed using a state machine, ensuring a structured flow where specific questions are shown or skipped based on user responses. For example, if a user doesn’t have a driver’s license, car-related questions are omitted. The form state is handled with Context API and useReducer, allowing local state management until submission, after which the data is stored in Local Storage. The statistics dashboard presents collected data through interactive charts, leveraging custom hooks to process and visualize insights such as percentages, averages, and comparisons. The project is built with TypeScript (.tsx) for type safety, styled using Tailwind CSS for a professional UI, and includes role-based routing to restrict access to survey-related routes. This project highlights my expertise in React, state management, UI frameworks, and data visualization, demonstrating my ability to build scalable and user-friendly applications.",
+        "link": "https://duvansurvey.netlify.app/",
         "github": "#",
-        "image": "/assets/img/e-commerce.webp",
-        "tags": ["angular", "node", "tailwind"]
+        "image": "/assets/img/customer_survey.webp",
+        "tags": ["react", "tailwind"]
     },
     {
         "title": "Casino",
@@ -13,6 +13,14 @@
         "link": "https://duvancasino.netlify.app/",
         "github": "#",
         "image": "/assets/img/casino.webp",
+        "tags": ["angular", "node", "tailwind"]
+    },
+    {
+        "title": "E-commerce",
+        "description": "In this project, I utilized a combination of cutting-edge technologies to develop a robust e-commerce platform. The frontend was built using AngularJS, a powerful JavaScript framework known for its flexibility and efficiency in crafting dynamic user interfaces. Leveraging the utility-first CSS framework Tailwind CSS, I ensured a sleek and responsive design that enhances user experience across various devices. For the backend infrastructure, I employed Node.js, a server-side runtime environment renowned for its scalability and speed. With Node.js, I created a resilient backend system capable of handling high volumes of traffic and concurrent user interactions. To manage the database operations efficiently, I utilized MySQL through Knex.js, enabling seamless data manipulation and retrieval.",
+        "link": "https://e-commerceduvan.netlify.app",
+        "github": "#",
+        "image": "/assets/img/e-commerce.webp",
         "tags": ["angular", "node", "tailwind"]
     }
 ]
