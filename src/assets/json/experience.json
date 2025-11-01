@@ -1,6 +1,21 @@
 [
     {
         "title":"SOFTWARE DEVELOPER",
+        "date":"March 2025 to October 2025",
+        "company": "Amaris Consulting",
+        "description": [
+            "Led the development of a Meta-integrated chatbot system, combining Node.js and Java (Spring Boot) microservices to deliver reliable, scalable automation features.",
+            "Designed and implemented microservices and scheduled cron jobs in Spring Boot to streamline backend operations and improve overall system efficiency.",
+            "Developed and enhanced front-end modules using Angular and TypeScript, ensuring strong UX principles and responsive, maintainable interfaces.",
+            "Configured and maintained Azure DevOps CI/CD pipelines, managing build and release workflows, and monitoring App Services to support continuous deployment and integration.",
+            "Worked extensively with Azure Cosmos DB, structuring and managing collections to handle dynamic chatbot data efficiently and securely.",
+            "Collaborated with cross-functional teams to deliver cutting-edge features, ensure code quality, and align backend and frontend implementations for optimal performance.",
+            "Applied best practices in clean code, modular architecture, and API integration to enhance maintainability and scalability across services."
+        ],
+        "latest":1
+    },
+    {
+        "title":"SOFTWARE DEVELOPER",
         "date":"Feb 2022 to Dec 2024",
         "company": "Project s & Systems LTDA",
         "description": [
@@ -12,8 +27,7 @@
             "Utilizing PHP, Node.js, and Angular to develop software applications, ensuring high quality and adherence to coding standards. Incorporating unit testing to verify that each component functions correctly and meets the required specications.",
             "During the migration of projects from PHP to Node, TypeScript was adopted to enhance the development process. Utilizing TypeScript’s features, including interfaces and strong static typing, to improve code reliability and maintainability.",
             "Utilizing Azure DevOps for comprehensive project management, including managing user stories, appraising their progress, and overseeing the repository. Employing Azure Pipelines for deploying changes efficienttly and ensuring continuous integration and delivery. Additionally, using SonarQube within Azure DevOps to enforce clean code practices and maintain high code quality standards."
-        ],
-        "latest":1
+        ]
     },
     {
         "title":"FULL STACK SUPPORT ENGINEER",
